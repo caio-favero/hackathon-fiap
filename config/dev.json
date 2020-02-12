@@ -1,0 +1,10 @@
+{
+  "protocol": "http",
+  "database": {
+    "uri": "localhost:27017",
+    "name": "padaria",
+    "user": "",
+    "password": ""
+  },
+  "port": 5000
+}

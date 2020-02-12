@@ -1,0 +1,30 @@
+{
+  "name": "hackathon-fiap",
+  "version": "1.0.0",
+  "description": "Users Padarias Produtos/cardapios financeiro [Assinaturas]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caio-favero/hackathon-fiap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caio-favero/hackathon-fiap/issues"
+  },
+  "homepage": "https://github.com/caio-favero/hackathon-fiap#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "nodemon": "^2.0.2"
+  }
+}
