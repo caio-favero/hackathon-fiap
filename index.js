@@ -1,5 +1,4 @@
 global.config = require('config')
-console.log(config)
 
 const app = require('./server/app')
 const port = app.get('port')
