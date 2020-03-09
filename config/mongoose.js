@@ -1,16 +1,6 @@
 const mongoose = require('mongoose')
-const mongooseConfig = {
-  useCreateIndex: true,
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false
-}
-const {
-  user,
-  password,
-  uri,
-  name,
-} = config.database
+const mongooseConfig = { useCreateIndex: true, useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }
+const { user, password, uri, name, } = config.database
 
 const connectionStr = `mongodb://${user ? user + ':' + password + '@' : ''}${uri}/${name}`
 

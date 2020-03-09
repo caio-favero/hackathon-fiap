@@ -10,9 +10,7 @@ const productsSchema = new Schema({
 
 const BakerySchema = new Schema({
   name: String,
-  address: {
-    street: String
-  },
+  address: String,
   products: [productsSchema]
 }, { versionKey: false })
 

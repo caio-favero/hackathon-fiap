@@ -4,7 +4,9 @@
   "description": "Users Padarias Produtos/cardapios financeiro [Assinaturas]",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "./script.sh dev",
+    "start": "./script.sh dev",
+    "testdev": "./script.sh testdev"
   },
   "engines": {
     "node": "12.15.1"
